@@ -22,7 +22,7 @@ gem 'pry-stack_explorer', require: false
 # Optional middleman dependencies, included for tests
 gem 'coffee-script', '~> 2.2', require: false
 gem 'haml', '>= 4.0.5', require: false
-gem 'kramdown', '~> 2.3', require: false
+gem 'kramdown', '~> 2.3', '>= 2.3.0', require: false
 gem 'liquid', '>= 3.0', require: false
 gem 'redcarpet', '>= 3.1', require: false
 gem 'sassc', '~> 2.4', require: false
@@ -37,8 +37,8 @@ gem 'mini_racer', '~> 0.3.1', platforms: :ruby
 gem 'therubyrhino', '>= 2.0', platforms: :jruby
 
 # Code Quality
-gem 'rubocop', '~> 1.7', require: false
-gem 'rubocop-performance', '~> 1.9', require: false
+gem 'rubocop', '~> 1.7', '>= 1.7.0', require: false
+gem 'rubocop-performance', '~> 1.9', '>= 1.9.1', require: false
 gem 'simplecov', '~> 0.20', require: false
 
 # Middleman itself
