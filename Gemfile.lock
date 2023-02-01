@@ -172,7 +172,7 @@ GEM
       middleware
       thor
       thread_safe
-    pry (0.13.1)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     pry-rescue (1.5.2)
@@ -194,7 +194,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
-
+    regexp_parser (2.6.2)
+    rexml (3.2.5)
     rgl (0.5.7)
       lazy_priority_queue (~> 0.1.0)
       stream (~> 0.5.3)
