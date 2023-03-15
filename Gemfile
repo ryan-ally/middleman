@@ -8,10 +8,10 @@ gem 'yard', '~> 0.9.26', require: false
 
 # Test tools
 gem 'addressable', '~> 2.4', require: false
-gem 'aruba', '~> 1.0.0', require: false
+gem 'aruba', '~> 1.0.3', require: false
 gem 'byebug'
 gem 'capybara', '~> 3.37.1', require: false
-gem 'cucumber', '~> 5.2', require: false
+gem 'cucumber', '~> 5.2', '>= 5.2.0', require: false
 gem 'rspec', '~> 3.10', require: false
 
 # Pry tools
