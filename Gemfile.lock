@@ -42,8 +42,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.2)
+      public_suffix (>= 2.0.2, < 6.0)
     aruba (1.0.3)
       childprocess (>= 2.0, < 5.0)
       contracts (~> 0.16.0)
@@ -136,7 +136,7 @@ GEM
     kramdown (2.3.0)
       rexml
     lazy_priority_queue (0.1.1)
-    libv8 (8.4.255.0)
+    libv8 (8.4.255.0-x86_64-linux)
     liquid (4.0.3)
     listen (3.4.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -181,7 +181,7 @@ GEM
     pry-stack_explorer (0.5.1)
       binding_of_caller (~> 0.7)
       pry (~> 0.13)
-    public_suffix (4.0.7)
+    public_suffix (5.0.1)
     racc (1.6.0)
     rack (2.2.3)
     rack-protection (2.2.0)
@@ -194,7 +194,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
-
+    regexp_parser (2.7.0)
+    rexml (3.2.5)
     rgl (0.5.7)
       lazy_priority_queue (~> 0.1.0)
       stream (~> 0.5.3)
@@ -269,10 +270,10 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
-  addressable (~> 2.4)
+  addressable (~> 2.8)
   aruba (~> 1.0.0)
   byebug
   capybara (~> 3.37.1)
